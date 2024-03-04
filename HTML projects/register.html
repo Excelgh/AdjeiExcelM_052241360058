@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration Form</title>
+    <style>
+        /* CSS styles for the form */
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #71b7fc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #6b25ee;
+            color: white;
+            padding: 30px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        body{background-image:url("photo sch crest.jpg") ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+         <a >Contact</a>
+
+            </option>
+            
+        </select>
+        <a href="payment.html">payment</a>
+        <a href="register.html"></a>
+        <a href="timetable.html">Timetable</a>
+    </nav>
+    <h1 style="text-align: center;">Course Registration Form</h1>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="stdent id">Student ID:</label>
+        <input type="text" id="ID" name="ID" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="course">Select a Course:</label>
+        <select id="course" name="course" required>
+            <option value="">-- Select a Course --</option>
+            <option value="COMPTECH">BTECH COMPUTER TECHNOLOGY</option>
+            <option value="HOSPITALITY">BTECH HOTEL MANAGEMENT AND HOSPITALITY</option>
+            <option value="FOOD">BTECH FOOD TECHNOLOGY</option>
+            <option value="STSTISTICS">BTECH STATISTICS</option>
+            <option value="COMPSCE">HND COMPUTER SCIENCE</option>
+            <option value="HND HOS">HND BTECH HOTEL MANAGEMENT AND HOSPITALITY</option>
+            <option value="COM SCE EVE">BTECH COMPUTER TECHNOLOGY -EVENING</option>
+            <option value="HOS EVE">HOSPITALITY --EVENING</option>
+            <!-- Add more courses as needed -->
+        </select>
+
+        
+        
+        <input type="submit" value="Register">
+        <input type="submit" value="Cancel">
+    </form>
+</body>
+</html>a
